@@ -11,11 +11,11 @@
         android:layout_height="match_parent"/>
 
     <ImageView
-        android:layout_centerInParent="true"
         android:id="@+id/img_error"
-        android:layout_width="200dp"
-        android:layout_height="150dp"
-        android:visibility="gone"
-        android:src="@drawable/error_web"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/error_web"
+        android:visibility="gone" />
 
 </FrameLayout>
